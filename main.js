@@ -126,17 +126,32 @@ const template = [
     ]
   },
   {
+    label: 'Snippets',
+    submenu: [
+      {
+        label: 'Notiz',
+        click: () => { 
+          mainWindow.webContents.insertText("```note \n");
+          mainWindow.webContents.insertText("### Eine kleine Notiz \n");
+          mainWindow.webContents.insertText("Platz genug um das eine oder andere nieder zu schreiben und bei unpassender Gelegenheit vorzulesen \n");
+          mainWindow.webContents.insertText("Tabellen und Listen gehen natürlich auch.");
+          mainWindow.webContents.insertText("``` \n");
+        }
+    }
+    ]
+  },
+  {
     label: 'Themes',
     submenu: [
       {
         label: 'Edition',
         submenu: [
-          {
+          /* {
             label: '3.5e',
             checked: editionTheme === 'three-five',
             type: 'radio',
             click: () => store.set('theme.edition', 'three-five')
-          },
+          }, 
           {
             label: '4e',
             checked: editionTheme === 'four',
@@ -148,12 +163,42 @@ const template = [
             checked: editionTheme === 'five',
             type: 'radio',
             click: () => store.set('theme.edition', 'five')
-          },
+          },*/
           {
             label: 'DSA 5',
             checked: editionTheme === 'dsafive',
             type: 'radio',
             click: () => store.set('theme.edition', 'dsafive')
+          },
+          {
+            label: 'DSA 4',
+            checked: editionTheme === 'dsafour',
+            type: 'radio',
+            click: () => store.set('theme.edition', 'dsafour')
+          },
+          {
+            label: 'DSA 3',
+            checked: editionTheme === 'dsathree',
+            type: 'radio',
+            click: () => store.set('theme.edition', 'dsathree')
+          },
+          {
+            label: 'DSA 1&2',
+            checked: editionTheme === 'dsaonetwo',
+            type: 'radio',
+            click: () => store.set('theme.edition', 'dsaonetwo')
+          },
+          {
+            label: 'Myranor',
+            checked: editionTheme === 'myranor',
+            type: 'radio',
+            click: () => store.set('theme.edition', 'myranor')
+          },
+          {
+            label: 'DSK',
+            checked: editionTheme === 'dsk',
+            type: 'radio',
+            click: () => store.set('theme.edition', 'dsk')
           }
         ]
       },
@@ -168,7 +213,7 @@ const template = [
               store.set('theme.preview', 'default');
             }
           },
-          {
+          /* {
             label: 'Red',
             type: 'radio',
             checked: previewTheme === 'red',
@@ -191,7 +236,7 @@ const template = [
             click: () => {
               store.set('theme.preview', 'blue');
             }
-          }
+          } */
         ]
       }
     ]
