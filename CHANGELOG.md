@@ -1,3 +1,11 @@
+# Die schwarze Brauerey
+
+## 1.1.0
+  - Projektübernahme und Einführung des DSA5 Styles
+
+***
+***
+
 # The Homebrewery
 
 ## 1.0.0

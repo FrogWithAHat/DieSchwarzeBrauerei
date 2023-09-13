@@ -1,8 +1,8 @@
-# The Homebrewery
-Welcome, traveler. Sit and tell us of what you have seen -- the unheard of monsters, which slither and bite. Tell us of the wondrous items and and artifacts you have found, their mysteries yet to be unlocked --
+# Die schwarze Brauerey
+Willkommen, Reisender. Setz dich gerne zu uns und erzähle uns von deinen Reisen und den Wundern, die su gesehen hast -- die unbekannten Monster, und dunklen Höhlen. Erzähle uns von den Schätzen und Artefakten, die du gefunden hast und deren Wunder noch darauf warten entdeckt zu werden --
 
-## Homebrew D&D made easy
-`The Homebrewery` makes the creation and sharing of authentic-looking D&D (3.5E, 4E and 5E) homebrews easy. It uses [Markdown](https://guides.github.com/features/mastering-markdown/) and a little CSS magic to make your brews come to life.
+## Selbst gemachte DSA Abenteuer einfach gestaltet
+`Die schwarze Brauerey` macht das Erstellen teilen von selbst geschriebenen und gut ausschauenden DSA 5 Abenteuern sehr einfach. Es wird [Markdown](https://guides.github.com/features/mastering-markdown/) und ein wenig CSS Magie verwendet um deine Geschichten glänzen zu lassen.
 
 <div class="x-center y-bottom">
 <!-- newline required -->
@@ -22,21 +22,28 @@ Welcome, traveler. Sit and tell us of what you have seen -- the unheard of monst
 ```
 </div>
 
-**Try it!** Simply edit the text on the left and watch it *update live* on the right.
+**Probier es aus!** Bearbeite einfach den text auf der Linken Seite und schau zu, wie sich die rechte Seite live anpasst.
 
-Of course, a document isn't of much help if it can't be printed out. Luckily, exporting PDFs with `The Homebrewery` is very straightforward:
+NAtürlich ist auch das bestausschaunde Dokument keine große Hilfe, wenn man es nicht ausdrucken kann. Glücklicherweise ist das Exportiren von PDFs mit der `Schwarzen Brauerey` ziemlich simpel:
 - **Mac**: &#8984;-Shift-E.
-- **Windows**: Ctrl-Shift-E.
+- **Windows**: Strg-Shift-E.
 
-Have an idea of how to make `The Homebrewery` better? Or did you find something that wasn't quite right? Head [here](https://github.com/noahlange/homebrewery-electron/issues/new) and let me know!
+Hast du Ideen wie die `Schwarzen Brauerey` noch besser werden kann? Oder hast du etwas gefunden, was nicht richtig funktioniert? Dann komm [hier hin](https://github.com/FrogWithAHat/DieSchwarzeBrauerey/issues/new) und lass es mich wissen!
 
-## Licensing
+## Lizenzkrams
 
-`The Homebrewery` is licensed using the MIT License, which means you are free to use `The Homebrewery` is any way that you want, except for claiming that you made it yourself.
+`Die schwarze Brauerey` arbeitet unter der MIT License, was heißt, dass du mit der `SchwarzenBrauerey` machen kannst was du magst, 
+\col 
+außer zu behaupten, dass du es selbst gemacht hast. habe ich nämlich auch nicht. Diese Version der `Schwarzen Brauerey`basiert auf dem [DnD Homebrewey Projekt](https://github.com/noahlange/homebrewery-electron) von Noah Lange.
 
-If you wish to publicly distribute *any* documents generated with `The Homebrewery`, it's your responsibility to ensure you have the proper licenses and publishing rights for images, fonts and other resources used.
+Wenn du *irgendwelche* Dokumente öffentlich publizieren willst, die mit der `Schwarzen Brauerey` gestaltet wurden, liegt es an dir dich darum zu kümmern, dass du die entsprechenden Rechte/Nutzungsrechte an Schriften, Bildern und Layoutelementen, Namen und urheberrechtlich geschützen Inhalten hast.
 
-\col
+Bei den Schriften habe ich versucht die im Layoutguide vorgegebene Schriften durch frei verfügbare Versionen zu ersetzten. Ob man diese aber auch frei in komerziellen Projekten nutzen darf habe ich nicht geprüft.
+
+Ein weiterer interessanter Punkt dürfte die 2023 an gekündigte ELF Lizenz von Ulisses sein. Aber auch hier bist *DU* am Drücker und musst dich kümmern.
+
+### Dokumente im DSA 5 Stil erstellen - Vorbereitungen
+Um das volle Benutzerelebnis zu haben musst du ein wenig mitarbeiten. Ulisses hat ein Layoutpaket zusammengestellt mit dem man Dokumente im Stil von DSA 5 für das Scriptorium designen kann. Da es sich hierbei um urheberrechtlich geschützte Dateien handelt liegen diese nicht im Auslieferungszustand bei. Du kannst sie aber kostenlos im [eBook Store][def] von Ulisses herunter laden und dann einfach in die passenden Ordner in diesem Projekt kopieren, die Scripte erwarten die Dateien dann dort.
 
 ## Markdown
 Markdown is a lightweight markup language that is used to generate the HTML styled by `The Homebrewery`. If Markdown proves insufficient for your needs, you can use a limited subset of HTML to augment your Markdown.
@@ -52,3 +59,6 @@ Markdown is a lightweight markup language that is used to generate the HTML styl
 
 <div class='page-number'>1</div>
 <div class='footnote'>PART 1 | FANCINESS</div>
+
+
+[def]: https://www.drivethrurpg.com/product/197880/Scriptorium-Aventuris--LayoutBaukasten
