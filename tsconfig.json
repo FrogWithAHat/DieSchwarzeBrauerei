@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "rootDir": "src",
+    "outDir": "lib",
+    "jsx": "react",
+    "sourceMap": true,
+    "moduleResolution": "node"
+  }
+}
